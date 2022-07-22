@@ -1,0 +1,243 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0%;
+}
+
+/*for mobile */
+
+/* header style */
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+#world-cup-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    margin-top: 18px;
+    border-radius: 18px;
+    background-color: rgb(27, 25, 25);
+}
+
+.world-cup-title {
+    width: 50%;
+    color: white;
+    font-size: 16px;
+}
+
+.world-cup-title b {
+    font-size: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(227, 15, 15);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.cr7 {
+
+    width: 47%;
+}
+
+.cr7 img {
+    width: 100%;
+    margin-top: 11%;
+}
+
+
+.section-container {
+    display: grid;
+    grid-template-columns: 0%;
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    margin-left: 10vw;
+
+
+
+}
+
+.sec-blog {
+    border: 1px solid rgba(109, 99, 99, 0.237);
+    border-radius: 6px;
+    margin-right: 54px;
+    height: 330px;
+    margin-top: 10px;
+}
+
+
+.transfer-btn {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(44, 46, 46);
+    border: 1px solid rgb(91, 90, 90);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.icon-sec {
+    display: flex;
+    align-items: center;
+}
+
+.time-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+.chat-icon {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.time-icon img {
+    margin-right: 5px;
+}
+
+.chat-icon img {
+    margin-right: 5px;
+}
+
+
+
+/* starts aside */
+.aside-container {
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
+
+.side-btn1 {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    margin-top: 5px;
+    padding: 10px;
+
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.side-btn2 {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.side-btn3 {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    background-color: rgb(227, 15, 15);
+    padding: 10px 55px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+/* aside ends */
+/* main ends  */
+
+
+#footer {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 18px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    padding-top: 50px;
+    color: chocolate;
+}
+
+hr {
+
+    border: 1px solid rgba(185, 179, 179, 0.296)
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+/* smaller device */
+@media screen and (max-width:688px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .aside-container {
+        background-color: transparent;
+        display: grid;
+        margin-left: 90px;
+    }
+
+    .world-cup-title b {
+        font-size: 30px;
+    }
+
+    .world-cup-title p {
+        font-size: 15px;
+    }
+
+    .cr7 img {
+        width: 100%;
+        margin-top: 458px;
+    }
+
+}
+
+/* smaller device end */
+/* ipad view start */
+@media only screen and (min-width: 688px) and (max-width: 992) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
